@@ -1,0 +1,73 @@
+
+/* Project 4300 Style Sheet */
+
+/* .navBar {
+	background-color: blue;
+	overflow: hidden;
+} */
+
+body {
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+#navBar a {
+	/* float: left; */
+	display: inline-block;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+#navBar a:hover {
+	background-color: lightblue;
+	color: blue;
+}
+
+#navBar a.active {
+	background-color: red;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+#toDoButton  {
+	font-size: 30px;
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 24px;
+	border-radius: 12px;
+
+}
+
+#toDoButton:hover {
+	background-color: orange;
+	color: white;
+}
+
+#announcements {
+	background-color: lightblue;
+	padding: 10px 10px;
+	border-radius: 12px;
+}
+
+#instructions {
+	padding: 20px 50px;
+}
+
+#pageStuff {
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+
+
